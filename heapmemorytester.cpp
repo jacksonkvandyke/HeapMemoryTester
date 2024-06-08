@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
+#include <conio.h>
+
 using namespace std;
 
 size_t heap_memory = 0LL;
@@ -47,7 +49,7 @@ void TestHeap(){
     
     //Print final storage of heap
     cout << "\n\n" << "Total Bytes Allocated to heap: " << heap_memory;
-
+    _getch();
     return;
 }
 
